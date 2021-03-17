@@ -35,7 +35,7 @@ if (north or south or east or west):
 '''
 
 year = int(input('Enter a year: _'))
-if (year % 4):
+if (year % 4 == 0):
     print('It can be a leap year')
 else:
     print('It is definitely not a leap year')
