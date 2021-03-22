@@ -1,4 +1,12 @@
 def fatorial(num):
+    """[Calcula a Fatorial]
+
+    Args:
+        num ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """
     fat = 1
     if (num == 0):
         return fat
@@ -12,3 +20,4 @@ def fatorial(num):
 #Programa principal
 x = int(input('Digite um valor para calcular a fatorial: -- '))
 print('{}! = {}'.format(x, fatorial(x)))
+help(fatorial)
